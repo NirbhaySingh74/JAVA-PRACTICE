@@ -26,5 +26,6 @@ public class Factorial {
         int result2 = findFactorialWithRecursion(num);
         System.out.println("Factorial of " + num + " is: " + result);
         System.out.println("Factorial of " + num + " is: " + result2);
+        sc.close();
     }
 }

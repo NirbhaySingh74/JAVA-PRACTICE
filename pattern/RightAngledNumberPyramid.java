@@ -2,11 +2,11 @@ package pattern;
 
 import java.util.Scanner;
 
-public class RightAngularTriangle {
-    public static void RightAngularTriangl(int n) {
+public class RightAngledNumberPyramid {
+    public static void RightAngleNumberPyramid(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print("*" + " ");
+                System.out.print(j + " ");
             }
             System.out.println();
         }
@@ -16,7 +16,6 @@ public class RightAngularTriangle {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter N : ");
         int n = sc.nextInt();
-        RightAngularTriangl(n);
-        sc.close();
+        RightAngleNumberPyramid(n);
     }
 }

@@ -10,6 +10,6 @@ public class Add {
         System.out.println("Enter Third number");
         int z = sc.nextInt();
         int sum = x + y + z;
-        System.out.println("The sum of first, seconds and third numbers are"+ sum);
+        System.out.println("The sum of first, seconds and third numbers are " + sum);
     }
 }

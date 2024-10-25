@@ -7,7 +7,9 @@ public class Add {
         int x = sc.nextInt();
         System.out.println("Enter Second number");
         int y = sc.nextInt();
-        int sum = x + y;
-        System.out.println("The sum of first and seconds numbers are"+ sum);
+        System.out.println("Enter Third number");
+        int z = sc.nextInt();
+        int sum = x + y + z;
+        System.out.println("The sum of first, seconds and third numbers are"+ sum);
     }
 }
